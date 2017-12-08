@@ -1,4 +1,6 @@
 'use strict'
+
+function question(){
 var counter = 1;
 var firstQuestion = prompt('Are you having a good day? yes or no?');
 console.log ('firstQuestion:', firstQuestion);
@@ -8,8 +10,11 @@ if (firstQuestion === 'yes') {
   counter++;
 }else{
   alert('Im sorry to hear that!');
+ }
 }
+question();
 
+function two(){
 var questionTwo = prompt('Is it raining outside? Yes or no?');
 console.log ('questionTwo:', questionTwo);
 
@@ -18,8 +23,11 @@ if (questionTwo === 'yes') {
   counter++;
 }else{
   alert('Why are you on your computer get outside!');
+ }
 }
+two()
 
+function three(){
 var questionThree = prompt('Is it lunchtime?');
 console.log ('questionThree:', questionThree);
 
@@ -28,8 +36,11 @@ if(questionThree === 'yes') {
   counter++;
 }else{
   alert('Get back to work dawg!');
+ }
 }
+three();
 
+function four(){
 var questionFour = prompt('Do you like cats or dogs better?');
 console.log ('questionFour:', questionFour);
 
@@ -38,8 +49,11 @@ if (questionFour === 'cats'){
   counter++;
 }else{
 alert('I like dogs as well!')
+ }
 }
+four();
 
+function five(){
 var questionFive = prompt('How many dogs do I have?')
 console.log ('questionFive:', questionFive);
 
@@ -57,8 +71,11 @@ for(var i = 0; i < dogs.length; i++){
 }
 if (!flag) {
   alert('Sorry you are incorrect!');
+ }
 }
+five();
 
+function six(){
 var questionSix = prompt('How many days til world war 3?')
 console.log('questionSix', questionSix);
 var count = 0;
@@ -76,4 +93,6 @@ while (i < 5) {
     alert('You are correct good sir!')
       break;
   }
+ }
 }
+six();
